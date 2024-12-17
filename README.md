@@ -1,4 +1,4 @@
-# **Lunar Lander Project 🚀**
+# **Lunar Lander Agent 🚀**
 
 ## **Project Overview**
 This project focuses on training an agent to successfully land a lunar module on the flattest possible surface to avoid damage. The agent is trained using Reinforcement Learning (RL) techniques, specifically with the **Proximal Policy Optimization (PPO)** algorithm implemented in **Ray RLlib**.
