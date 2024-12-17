@@ -18,7 +18,6 @@ The goal is to train the agent to:
   - Visualizing the training performance.
   - Testing the agent for multiple landing attempts.
 - **`lunarlander_best3.mp4`**: A video showcasing the **top 3 landings** performed by the trained agent.
-[![Top 3 Landings Video](./thumbnail.png)](./lunarlander_best3.mp4)
 
 ## **Technologies Used**
 - **Python**: Programming language used for implementation.
