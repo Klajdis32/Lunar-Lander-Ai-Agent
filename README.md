@@ -1,4 +1,4 @@
-# **Lunar Lander Project**
+# **Lunar Lander Project 🚀**
 
 ## **Project Overview**
 This project focuses on training an agent to successfully land a lunar module on the flattest possible surface to avoid damage. The agent is trained using Reinforcement Learning (RL) techniques, specifically with the **Proximal Policy Optimization (PPO)** algorithm implemented in **Ray RLlib**.
@@ -17,7 +17,7 @@ The goal is to train the agent to:
   - Training the agent with specified hyperparameters.
   - Visualizing the training performance.
   - Testing the agent for multiple landing attempts.
-- **`lunarlander_combined_best.mp4`**: A video showcasing the **top 3 landings** performed by the trained agent.
+- **`lunarlander_best3.mp4`**: A video showcasing the **top 3 landings** performed by the trained agent.
 [![Top 3 Landings Video](./thumbnail.png)](./lunarlander_best3.mp4)
 
 ## **Technologies Used**
@@ -33,15 +33,24 @@ The goal is to train the agent to:
 3. The **best 3 landings** are recorded and combined into a single video file.
 
 ## **Results**
-The video `lunarlander_combined_best.mp4` displays the **3 best landings** achieved by the trained agent, demonstrating its ability to land the lunar module safely.
+The video `lunarlander_best3.mp4` displays the **3 best landings** achieved by the trained agent, demonstrating its ability to land the lunar module safely.
 
 ---
 
-## **How to Run**
+## **How to Run**  
 You can run the project on **Google Colab** by following these steps:
 
-1. **Create a Google Account** (if you don’t already have one) and go to [Google Colab](https://colab.research.google.com/).
-2. **Upload the Code**:
+1. **Create a Google Account** (if you don’t already have one) and visit [Google Colab](https://colab.research.google.com/).
+
+2. **Upload the Notebook**:
    - Download the file **`LunarLander.ipynb`** from this repository.
-   - Upload it to Google Colab by clicking **“File” → “Upload notebook”**.
-3. **Run the Code Step-by-Step**!
+   - Open Google Colab, click on **“File” → “Upload notebook”**, and select the downloaded file.
+
+3. **Run the Code**:
+   - Execute the cells in the notebook one by one to train the agent and test its performance.
+
+4. **Results**:
+   - The notebook will generate the top 3 landings video and save it as:
+     ```
+     ./output/lunarlander_best3.mp4
+     ```
