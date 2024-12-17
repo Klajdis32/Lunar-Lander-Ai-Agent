@@ -3,6 +3,8 @@
 ## **Project Overview**
 This project focuses on training an agent to successfully land a lunar module on the flattest possible surface to avoid damage. The agent is trained using Reinforcement Learning (RL) techniques, specifically with the **Proximal Policy Optimization (PPO)** algorithm implemented in **Ray RLlib**.
 
+![Lunar Lander](./thumbnail.png)
+
 ## **Objective**
 The goal is to train the agent to:
 1. **Control the lunar lander** efficiently.
@@ -16,6 +18,7 @@ The goal is to train the agent to:
   - Visualizing the training performance.
   - Testing the agent for multiple landing attempts.
 - **`lunarlander_combined_best.mp4`**: A video showcasing the **top 3 landings** performed by the trained agent.
+[![Top 3 Landings Video](./thumbnail.png)](./lunarlander_best3.mp4)
 
 ## **Technologies Used**
 - **Python**: Programming language used for implementation.
