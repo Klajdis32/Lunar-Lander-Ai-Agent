@@ -34,7 +34,6 @@ The goal is to train the agent to:
 ## **Results**
 The video `lunarlander_best3.mp4` displays the **3 best landings** achieved by the trained agent, demonstrating its ability to land the lunar module safely.  
 [Click here to see the video!](https://tsamiklainti.com/static/media/lunarlander_best3.cb51f773d4cb5df575e0.mp4)
----
 
 ## **How to Run**  
 You can run the project on **Google Colab** by following these steps:
